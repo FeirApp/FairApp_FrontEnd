@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Technologies: 
+* JavaScript
+* CSS
+* HTML
+* Node 19.1
+
 ## Available Scripts
 
 In the project directory, you can run:
