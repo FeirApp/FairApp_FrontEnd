@@ -1,0 +1,100 @@
+
+.header1{
+  color: #366c31;
+  font-weight: bold;
+  position: absolute;
+  margin: -4rem 0 0 6rem;
+}
+
+.dropdown::before {
+  margin-bottom: 10px;
+  display: flex;
+  z-index:999;
+}
+
+.menu {
+  position: relative;
+
+  list-style-type: none;
+  margin: 5px 0 ;
+
+  padding: 0;
+
+  border: 1px solid grey;
+  width: 150px;
+}
+
+.menu > li {
+      font-size: 1rem;
+      font-weight: 400;
+      display: inline-block;
+      padding: 12px;
+      position: relative;
+      display: flex;
+}
+
+.menu > li:hover {
+  background-color: rgb(185, 253, 193);
+}
+
+.menu > li > button {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 5px;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+  .box::after{
+    float: right;
+    margin-right: 70%;
+  }
+  .selected::after{
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+
+  .item-list-wrapper {
+    left: 0;
+    right: 0;
+    background-color: inherit;
+    padding: inherit;
+    border-radius: 0 0 0.3em 0.3em;
+}
+
+.label{
+  color: #366c31;
+  font-weight: bold;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.button{
+  background-color: #a8e6a3;
+  color: black;
+}
+
+.filterTitle{
+  color: #366c31;
+  font-weight: bold;
+}
+
+.fixed{
+  position: relative;
+}
+
+.logo {
+  max-width:100px;
+  max-height:80px;
+  width: auto;
+  height: auto;
+  position: relative;
+}
